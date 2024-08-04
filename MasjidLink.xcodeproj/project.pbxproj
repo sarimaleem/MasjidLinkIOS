@@ -7,14 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F52EAB482C603815006B1408 /* AnnouncementsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F52EAB472C603815006B1408 /* AnnouncementsView.swift */; };
+		F52EAB4A2C603829006B1408 /* DonateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F52EAB492C603829006B1408 /* DonateView.swift */; };
+		F52EAB4C2C603E66006B1408 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F52EAB4B2C603E66006B1408 /* SettingsView.swift */; };
+		F52EAB4E2C603E75006B1408 /* EventsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F52EAB4D2C603E75006B1408 /* EventsView.swift */; };
 		F5BA24182C602A1E00E468C6 /* MasjidLinkApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5BA24172C602A1E00E468C6 /* MasjidLinkApp.swift */; };
 		F5BA241A2C602A1E00E468C6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5BA24192C602A1E00E468C6 /* ContentView.swift */; };
-		F5BA241C2C602A1E00E468C6 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5BA241B2C602A1E00E468C6 /* Item.swift */; };
 		F5BA241E2C602A1E00E468C6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F5BA241D2C602A1E00E468C6 /* Assets.xcassets */; };
 		F5BA24212C602A1E00E468C6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F5BA24202C602A1E00E468C6 /* Preview Assets.xcassets */; };
 		F5BA242B2C602A1E00E468C6 /* MasjidLinkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5BA242A2C602A1E00E468C6 /* MasjidLinkTests.swift */; };
 		F5BA24352C602A1E00E468C6 /* MasjidLinkUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5BA24342C602A1E00E468C6 /* MasjidLinkUITests.swift */; };
 		F5BA24372C602A1E00E468C6 /* MasjidLinkUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5BA24362C602A1E00E468C6 /* MasjidLinkUITestsLaunchTests.swift */; };
+		F5BA24482C602EF600E468C6 /* NavBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5BA24472C602EF600E468C6 /* NavBarView.swift */; };
+		F5BA244A2C6030B600E468C6 /* ButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5BA24492C6030B600E468C6 /* ButtonView.swift */; };
+		F5BA244C2C60323F00E468C6 /* PrayerTimesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5BA244B2C60323F00E468C6 /* PrayerTimesView.swift */; };
+		F5BA24502C6036D600E468C6 /* AppState.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5BA244F2C6036D600E468C6 /* AppState.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,10 +42,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F52EAB472C603815006B1408 /* AnnouncementsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnnouncementsView.swift; sourceTree = "<group>"; };
+		F52EAB492C603829006B1408 /* DonateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DonateView.swift; sourceTree = "<group>"; };
+		F52EAB4B2C603E66006B1408 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		F52EAB4D2C603E75006B1408 /* EventsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventsView.swift; sourceTree = "<group>"; };
 		F5BA24142C602A1E00E468C6 /* MasjidLink.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MasjidLink.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F5BA24172C602A1E00E468C6 /* MasjidLinkApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasjidLinkApp.swift; sourceTree = "<group>"; };
 		F5BA24192C602A1E00E468C6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		F5BA241B2C602A1E00E468C6 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
 		F5BA241D2C602A1E00E468C6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F5BA24202C602A1E00E468C6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		F5BA24262C602A1E00E468C6 /* MasjidLinkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MasjidLinkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -46,6 +56,11 @@
 		F5BA24302C602A1E00E468C6 /* MasjidLinkUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MasjidLinkUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F5BA24342C602A1E00E468C6 /* MasjidLinkUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasjidLinkUITests.swift; sourceTree = "<group>"; };
 		F5BA24362C602A1E00E468C6 /* MasjidLinkUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasjidLinkUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		F5BA24432C602CF200E468C6 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		F5BA24472C602EF600E468C6 /* NavBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavBarView.swift; sourceTree = "<group>"; };
+		F5BA24492C6030B600E468C6 /* ButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonView.swift; sourceTree = "<group>"; };
+		F5BA244B2C60323F00E468C6 /* PrayerTimesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrayerTimesView.swift; sourceTree = "<group>"; };
+		F5BA244F2C6036D600E468C6 /* AppState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppState.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +91,7 @@
 		F5BA240B2C602A1E00E468C6 = {
 			isa = PBXGroup;
 			children = (
+				F5BA24432C602CF200E468C6 /* README.md */,
 				F5BA24162C602A1E00E468C6 /* MasjidLink */,
 				F5BA24292C602A1E00E468C6 /* MasjidLinkTests */,
 				F5BA24332C602A1E00E468C6 /* MasjidLinkUITests */,
@@ -96,9 +112,11 @@
 		F5BA24162C602A1E00E468C6 /* MasjidLink */ = {
 			isa = PBXGroup;
 			children = (
+				F5BA24462C602ED700E468C6 /* ViewModel */,
+				F5BA24452C602ECE00E468C6 /* View */,
+				F5BA24442C602EC500E468C6 /* Model */,
 				F5BA24172C602A1E00E468C6 /* MasjidLinkApp.swift */,
 				F5BA24192C602A1E00E468C6 /* ContentView.swift */,
-				F5BA241B2C602A1E00E468C6 /* Item.swift */,
 				F5BA241D2C602A1E00E468C6 /* Assets.xcassets */,
 				F5BA241F2C602A1E00E468C6 /* Preview Content */,
 			);
@@ -128,6 +146,35 @@
 				F5BA24362C602A1E00E468C6 /* MasjidLinkUITestsLaunchTests.swift */,
 			);
 			path = MasjidLinkUITests;
+			sourceTree = "<group>";
+		};
+		F5BA24442C602EC500E468C6 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F5BA244F2C6036D600E468C6 /* AppState.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F5BA24452C602ECE00E468C6 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F5BA24472C602EF600E468C6 /* NavBarView.swift */,
+				F5BA24492C6030B600E468C6 /* ButtonView.swift */,
+				F5BA244B2C60323F00E468C6 /* PrayerTimesView.swift */,
+				F52EAB472C603815006B1408 /* AnnouncementsView.swift */,
+				F52EAB492C603829006B1408 /* DonateView.swift */,
+				F52EAB4B2C603E66006B1408 /* SettingsView.swift */,
+				F52EAB4D2C603E75006B1408 /* EventsView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F5BA24462C602ED700E468C6 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -260,8 +307,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F5BA244C2C60323F00E468C6 /* PrayerTimesView.swift in Sources */,
+				F52EAB4E2C603E75006B1408 /* EventsView.swift in Sources */,
 				F5BA241A2C602A1E00E468C6 /* ContentView.swift in Sources */,
-				F5BA241C2C602A1E00E468C6 /* Item.swift in Sources */,
+				F52EAB4A2C603829006B1408 /* DonateView.swift in Sources */,
+				F52EAB4C2C603E66006B1408 /* SettingsView.swift in Sources */,
+				F5BA24502C6036D600E468C6 /* AppState.swift in Sources */,
+				F52EAB482C603815006B1408 /* AnnouncementsView.swift in Sources */,
+				F5BA24482C602EF600E468C6 /* NavBarView.swift in Sources */,
+				F5BA244A2C6030B600E468C6 /* ButtonView.swift in Sources */,
 				F5BA24182C602A1E00E468C6 /* MasjidLinkApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
