@@ -1,12 +1,11 @@
 #  MasjidLink App IOS
 
-
-Current Roadmap (In order)
-
-- [X] Working Navbar (Sarim)
-- [ ] Pretty Navbar (Misbah)
-- [ ] Prayer Times (Masjidaal) (Sarim)
-- [ ] Event Information
-- [ ] Announcements
-- [ ] Donate Page
-- [ ] Settings
+| Feature                     | Assignee | Progress        |
+|-----------------------------|----------|-----------------|
+| Working Navbar              | Sarim    | 🟢 Done         |
+| Pretty Navbar               | Misbah   | 🟡 In Progress  |
+| Prayer Times                | Sarim    | 🟡 In Progress  |
+| Event Information           |          | 🔴 Not Started  |
+| Announcements               |          | 🔴 Not Started  |
+| Donate Page                 |          | 🔴 Not Started  |
+| Settings                    |          | 🔴 Not Started  |
