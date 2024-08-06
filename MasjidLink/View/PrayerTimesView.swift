@@ -9,7 +9,18 @@ import SwiftUI
 
 struct PrayerTimesView: View {
     var body: some View {
-        Text("Prayer Times Placeholder Page")
+        List {
+            PrayerTimeView(prayer: "Fajr", adhan: "5AM", iqama: "5:30AM")
+                .padding(.vertical, 8)
+            PrayerTimeView(prayer: "Zhuhr", adhan: "5AM", iqama: "5:30AM")
+                .padding(.vertical, 8)
+            PrayerTimeView(prayer: "Asr", adhan: "5AM", iqama: "5:30AM")
+                .padding(.vertical, 8)
+            PrayerTimeView(prayer: "Maghrib", adhan: "5AM", iqama: "5:30AM")
+                .padding(.vertical, 8)
+            PrayerTimeView(prayer: "Isha", adhan: "5AM", iqama: "5:30AM")
+                .padding(.vertical, 8)
+        }
     }
 }
 

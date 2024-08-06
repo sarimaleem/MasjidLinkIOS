@@ -11,6 +11,7 @@
 		F52EAB4A2C603829006B1408 /* DonateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F52EAB492C603829006B1408 /* DonateView.swift */; };
 		F52EAB4C2C603E66006B1408 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F52EAB4B2C603E66006B1408 /* SettingsView.swift */; };
 		F52EAB4E2C603E75006B1408 /* EventsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F52EAB4D2C603E75006B1408 /* EventsView.swift */; };
+		F52EAB522C61CF93006B1408 /* PrayerTimeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F52EAB512C61CF93006B1408 /* PrayerTimeView.swift */; };
 		F5BA24182C602A1E00E468C6 /* MasjidLinkApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5BA24172C602A1E00E468C6 /* MasjidLinkApp.swift */; };
 		F5BA241A2C602A1E00E468C6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5BA24192C602A1E00E468C6 /* ContentView.swift */; };
 		F5BA241E2C602A1E00E468C6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F5BA241D2C602A1E00E468C6 /* Assets.xcassets */; };
@@ -46,6 +47,7 @@
 		F52EAB492C603829006B1408 /* DonateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DonateView.swift; sourceTree = "<group>"; };
 		F52EAB4B2C603E66006B1408 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 		F52EAB4D2C603E75006B1408 /* EventsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventsView.swift; sourceTree = "<group>"; };
+		F52EAB512C61CF93006B1408 /* PrayerTimeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrayerTimeView.swift; sourceTree = "<group>"; };
 		F5BA24142C602A1E00E468C6 /* MasjidLink.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MasjidLink.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F5BA24172C602A1E00E468C6 /* MasjidLinkApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasjidLinkApp.swift; sourceTree = "<group>"; };
 		F5BA24192C602A1E00E468C6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -166,6 +168,7 @@
 				F52EAB492C603829006B1408 /* DonateView.swift */,
 				F52EAB4B2C603E66006B1408 /* SettingsView.swift */,
 				F52EAB4D2C603E75006B1408 /* EventsView.swift */,
+				F52EAB512C61CF93006B1408 /* PrayerTimeView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -311,6 +314,7 @@
 				F52EAB4E2C603E75006B1408 /* EventsView.swift in Sources */,
 				F5BA241A2C602A1E00E468C6 /* ContentView.swift in Sources */,
 				F52EAB4A2C603829006B1408 /* DonateView.swift in Sources */,
+				F52EAB522C61CF93006B1408 /* PrayerTimeView.swift in Sources */,
 				F52EAB4C2C603E66006B1408 /* SettingsView.swift in Sources */,
 				F5BA24502C6036D600E468C6 /* AppState.swift in Sources */,
 				F52EAB482C603815006B1408 /* AnnouncementsView.swift in Sources */,
